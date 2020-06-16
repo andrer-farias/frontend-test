@@ -1,0 +1,16 @@
+export default [
+  { id: '2', name: '2', weight: 13 },
+  { id: 'A', name: 'ACE', weight: 12 },
+  { id: 'K', name: 'KING', weight: 11 },
+  { id: 'Q', name: 'QUEEN', weight: 10 },
+  { id: 'J', name: 'JACK', weight: 9 },
+  { id: '10', name: '10', weight: 8 },
+  { id: '0', name: '0', weight: 8 },
+  { id: '9', name: '9', weight: 7 },
+  { id: '8', name: '8', weight: 6 },
+  { id: '7', name: '7', weight: 5 },
+  { id: '6', name: '6', weight: 4 },
+  { id: '5', name: '5', weight: 3 },
+  { id: '4', name: '4', weight: 2 },
+  { id: '3', name: '3', weight: 1 },
+]
