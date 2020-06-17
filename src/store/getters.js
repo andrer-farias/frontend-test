@@ -1,4 +1,4 @@
-import { fullHouseCombinations } from "../utils/fullhouse";
+import { fullHouseCombinations } from "../services/fullhouse";
 
 export const getCards = state => state.cards
 
