@@ -1,6 +1,12 @@
-# frontend-test
+# Intricately Front-End challenge
+
+> Front-End Vue.js challenge for Intricately.
+
+This challenge relies on building a deck of cards and having its content ordered according to a given **rotation card**.
 
 ## Project setup
+
+> [yarn](https://classic.yarnpkg.com/lang/en/) is required to run this project.
 ```
 yarn install
 ```
@@ -15,10 +21,7 @@ yarn serve
 yarn build
 ```
 
-### Lints and fixes files
+### Running Tests
 ```
-yarn lint
+yarn test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
