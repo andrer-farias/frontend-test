@@ -36,7 +36,7 @@ A new deck can be created at route <code>/deck/new</code>. After accessing this 
 
 ### Displaying a new deck
 
-After creating a new deck it's possible to visualize the ordered cards at the route deck/:id. This page shows all the cards ordered according to the previous **rotation card**; the highest card on the pile; and all full house combinations.
+After creating a new deck it's possible to visualize the ordered cards at the route <code>deck/:id</code>. This page shows all the cards ordered according to the previous **rotation card**; the highest card on the pile; and all full house combinations.
 
 > *After creating a new deck on **/deck/new** route you'll be redirected to **deck/:id***
 
