@@ -9,6 +9,7 @@
             v-bind:error="cardInput.error"
             placeholder="Enter card"
             @onChange="handleChange"
+            :required="cardInput.id === 1"
           />
         </Box>
       </Grid>
@@ -23,6 +24,7 @@
             v-bind:error="rotationCard.error"
             placeholder="Enter card"
             @onChange="handleRotationCardChange"
+            :required="true"
           />
         </Box>
       </Grid>

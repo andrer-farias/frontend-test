@@ -1,7 +1,7 @@
 <template>
   <div data-testid="input-container" class="input-container">
     <p data-testid="input-title" v-if="title"><strong>{{title}}</strong></p>
-    <input :data-testid="'input-'+id" type="text" @keyup="onChangeValue" v-model="value" :placeholder="placeholder" />
+    <input :data-testid="'input-'+id" type="text" @keyup="onChangeValue" v-model="value" :placeholder="placeholder" :required="required" />
   </div>
 </template>
 
@@ -16,6 +16,10 @@
       placeholder:{
         type: String,
         required: true,
+      },
+      required: {
+        type: Boolean,
+        default: false,
       },
       title: {
         type: String,
