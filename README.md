@@ -30,7 +30,9 @@ yarn test:unit
 
 ### Creating a new deck
 
-A new deck can be created at route <code>/deck/new</code>. After accessing this route a form will be displayed, this form accepts up to 10 valid cars and a Rotation Card. 
+A new deck can be created at route <code>/deck/new</code>. After accessing this route a form will be displayed, this form accepts up to 10 valid cars and a Rotation Card.
+
+![](frontend-test-create-deck-gif.gif)
 
 ### Displaying a new deck
 
