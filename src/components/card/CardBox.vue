@@ -13,7 +13,7 @@
 
 <script>
 import Box from '../layout/Box'
-import { valueFromString } from '../../utils/cards'
+import { valueFromString } from '../../services/cards'
 
 export default {
   name: 'CardBox',

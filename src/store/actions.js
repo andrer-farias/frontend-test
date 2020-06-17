@@ -1,5 +1,5 @@
 import { createDeckAndPiles, getDeck } from "../api"
-import { getOrderedDeck } from "../utils/cards"
+import { getOrderedDeck } from "../services/cards"
 
 export const saveDeck = (_commands, payload) => {
   const { deck, rotationCard, onSuccess } = payload
